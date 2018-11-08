@@ -34,7 +34,7 @@ void main()
 void main()
 {
 	int a[N][N],i,j,max;
-	printf("rand 5*5 matrix");/*输入一个随机的5*5数组*/
+  printf("rand 5*5 matrix");/*输入一个随机的5*5数组*/
 	for(i=0;i<N;i++)
 	for(j=0;j<N;j++)
 	a[i][j]=rand()%10;
