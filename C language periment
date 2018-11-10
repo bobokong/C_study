@@ -134,3 +134,26 @@ main()
 	}
 	printf("min=%d,max=%d\n",min,max);
 }
+/*输入一个4*5的矩阵，计算第四周的和*/
+#include<stdio.h>
+main()
+{
+	int a[4][5],i,j,sum=0;
+	printf("enter a[][]\n");
+	for(i=0;i<4;i++)
+	{
+		for(j=0;j<5;j++)
+		{
+			scanf("%d",&a[i][j]);
+			printf("%d ",a[i][j]);
+		}
+		printf("\n");     /*输入并以4*5的矩阵形式输出*/
+	}
+	for(i=0;i<4;i+=3)
+		for(j=0;j<5;j++)
+			sum+=a[i][j];     /*第1、4行的和*/
+	for(i=1;i<3;i++)
+		for(j=0;j<5;j+=4)
+			sum+=a[i][j];
+	printf("sum=%d",sum);
+}
