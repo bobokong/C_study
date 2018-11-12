@@ -157,3 +157,13 @@ main()
 			sum+=a[i][j];
 	printf("sum=%d",sum);
 }
+/*输入字符串以大写输出*/
+#include<stdio.h>
+#include<string.h>
+main()
+{
+	char a[100];
+	gets(a);
+	puts(strupr(a));
+	printf("%d\n",strlen(a));
+}
