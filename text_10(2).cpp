@@ -1,3 +1,4 @@
+/*十、三（1）统计2的个数*/
 #include "stdio.h" 
 countdigit(long number,int a); 
 main() 
