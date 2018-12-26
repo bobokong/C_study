@@ -19,9 +19,9 @@ main()
 	char a[80];      
 	printf("please input a :");    
 	gets(a);
-	printf("Êä³öÔ­Êı×éÔªËØ:\n");   
+	printf("è¾“å‡ºåŸæ•°ç»„å…ƒç´ :\n");   
 	puts(a);
 	fun(a);
-	printf("Êä³öÅÅºÃĞòµÄÊı×éÔªËØ:\n");    
+	printf("è¾“å‡ºæ’å¥½åºçš„æ•°ç»„å…ƒç´ :\n");    
 	puts(a);
 } 
