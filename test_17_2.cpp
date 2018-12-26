@@ -19,10 +19,10 @@ void main()
 {
 	float x[100];
 	int n,i,num=0;
-	printf("¸øn¸³Öµ£º\n");
+	printf("ç»™nèµ‹å€¼ï¼š\n");
 	scanf("%d",&n);
 	for (i = 0; i < n; i++)
 		scanf("%f",&x[i]);
 	fun(x,&num);
-	printf("\n¸ßÓÚÆ½¾ùÖµµÄÊµÊý¸öÊýÊÇ%d\n",num);
+	printf("\né«˜äºŽå¹³å‡å€¼çš„å®žæ•°ä¸ªæ•°æ˜¯%d\n",num);
 }
