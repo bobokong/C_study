@@ -15,5 +15,5 @@ struct emp
        scanf("%s%f%f%f",s[i].name,&s[i].jbg,&s[i].fdg,&s[i].zc); 
    	for(i=0;i<n;i++) 
    /********found********/  
-   		printf("%5s,实发工资：%7.2f\n",s[i].name,s[i].jbg+s[i].fdg-s[i].zc); 
+   		printf("%5s,脢碌路垄鹿陇脳脢拢潞%7.2f\n",s[i].name,s[i].jbg+s[i].fdg-s[i].zc); 
 } 
