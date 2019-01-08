@@ -1,5 +1,5 @@
 #include<stdio.h>
-void sat1(char a[]);		/*统计单词个数*/
+void sat1(char a[]);		/*脥鲁录脝碌楼麓脢赂枚脢媒*/
 void dele(char a[]);
 void main()
 {
@@ -24,11 +24,7 @@ void dele(char a[])
 	char b[20];
 	for(i=0;i!='\0';i++)
 		if(a[i]!='*')
-		{
-			b[j]=a[i];
-			j=j+1;
-			printf("%d",j);
-		}
-	
-	printf("%s",b);
+			b[j++]=a[i];
+	b[j]=0;
+	puts(b);
 }
