@@ -1,7 +1,7 @@
 #include<stdio.h>
 #define N 10
 void s();
-int f(int n);		//ʮ����ת�˽���
+int f(int n);		
 int fun();
 main()
 {
@@ -13,7 +13,7 @@ main()
 	printf("\n");
 	s();
 }
-int f(int n)
+int f(int n)		/*十进制转八进制*/		
 {
 	int j,k=0,m,i=0;
 	while(n)
@@ -28,7 +28,7 @@ int f(int n)
 	printf("%d",k);
 	return 0;
 }
-void s()
+void s()	/*杨辉三角*/		
 {
 	int a[N][N],i,j,t;
 	for(i=0;i<N;i++)
@@ -50,7 +50,7 @@ void s()
 	}
 }
 
-int fun()
+int fun()		/*九九乘法表*/
 {
 	int i,j,t;
 	for(i=1;i<=9;i++)
