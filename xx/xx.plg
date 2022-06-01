@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xx - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\kongbo\AppData\Local\Temp\RSPEBBC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/xx.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\github\Cwork\xx\xx.c"
+]
+Creating command line "cl.exe @C:\Users\kongbo\AppData\Local\Temp\RSPEBBC.tmp" 
+Creating temporary file "C:\Users\kongbo\AppData\Local\Temp\RSPEBBD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/xx.pdb" /debug /machine:I386 /out:"Debug/xx.exe" /pdbtype:sept 
+.\Debug\xx.obj
+]
+Creating command line "link.exe @C:\Users\kongbo\AppData\Local\Temp\RSPEBBD.tmp"
+<h3>Output Window</h3>
+Compiling...
+xx.c
+e:\github\cwork\xx\xx.c(4) : error C2065: 'N' : undeclared identifier
+e:\github\cwork\xx\xx.c(6) : warning C4013: 'printf' undefined; assuming extern returning int
+e:\github\cwork\xx\xx.c(8) : warning C4013: 'scanf' undefined; assuming extern returning int
+e:\github\cwork\xx\xx.c(8) : error C2065: 'stu' : undeclared identifier
+e:\github\cwork\xx\xx.c(8) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(8) : error C2224: left of '.num' must have struct/union type
+e:\github\cwork\xx\xx.c(10) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(10) : error C2224: left of '.sex' must have struct/union type
+e:\github\cwork\xx\xx.c(11) : warning C4013: 'strcmp' undefined; assuming extern returning int
+e:\github\cwork\xx\xx.c(11) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(11) : error C2224: left of '.sex' must have struct/union type
+e:\github\cwork\xx\xx.c(11) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(11) : error C2224: left of '.sex' must have struct/union type
+e:\github\cwork\xx\xx.c(13) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(13) : error C2224: left of '.sex' must have struct/union type
+e:\github\cwork\xx\xx.c(16) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(16) : error C2224: left of '.name' must have struct/union type
+e:\github\cwork\xx\xx.c(20) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(20) : error C2224: left of '.score' must have struct/union type
+e:\github\cwork\xx\xx.c(32) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(32) : error C2224: left of '.num' must have struct/union type
+e:\github\cwork\xx\xx.c(32) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(32) : error C2224: left of '.sex' must have struct/union type
+e:\github\cwork\xx\xx.c(32) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(32) : error C2224: left of '.name' must have struct/union type
+e:\github\cwork\xx\xx.c(34) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(34) : error C2224: left of '.score' must have struct/union type
+e:\github\cwork\xx\xx.c(42) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(42) : error C2224: left of '.sex' must have struct/union type
+e:\github\cwork\xx\xx.c(44) : error C2109: subscript requires array or pointer type
+e:\github\cwork\xx\xx.c(44) : error C2224: left of '.sex' must have struct/union type
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+xx.exe - 28 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C_test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\kongbo\AppData\Local\Temp\RSPC907.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/C_test.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\github\Cwork\C_test\test_4.cpp"
+]
+Creating command line "cl.exe @C:\Users\kongbo\AppData\Local\Temp\RSPC907.tmp" 
+Creating temporary file "C:\Users\kongbo\AppData\Local\Temp\RSPC908.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/C_test.pdb" /debug /machine:I386 /out:"Debug/C_test.exe" /pdbtype:sept 
+.\Debug\test_1.obj
+.\Debug\test_2.obj
+.\Debug\test_3.obj
+.\Debug\test_4.obj
+]
+Creating command line "link.exe @C:\Users\kongbo\AppData\Local\Temp\RSPC908.tmp"
+<h3>Output Window</h3>
+Compiling...
+test_4.cpp
+e:\github\cwork\c_test\test_4.cpp(25) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+Linking...
+test_2.obj : error LNK2005: _main already defined in test_1.obj
+test_3.obj : error LNK2005: _main already defined in test_1.obj
+test_4.obj : error LNK2005: _main already defined in test_1.obj
+Debug/C_test.exe : fatal error LNK1169: one or more multiply defined symbols found
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+C_test.exe - 4 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

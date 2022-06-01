@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test_1_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\kongbo\AppData\Local\Temp\RSP18AE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/test_1_1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\github\Cwork\test_1_1\test_1_1.cpp"
+]
+Creating command line "cl.exe @C:\Users\kongbo\AppData\Local\Temp\RSP18AE.tmp" 
+<h3>Output Window</h3>
+Compiling...
+test_1_1.cpp
+E:\github\Cwork\test_1_1\test_1_1.cpp(11) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+E:\github\Cwork\test_1_1\test_1_1.cpp(6) : warning C4101: 'len' : unreferenced local variable
+
+
+
+<h3>Results</h3>
+test_1_1.obj - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

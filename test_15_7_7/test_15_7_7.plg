@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test_15_7_7 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\kongbo\AppData\Local\Temp\RSP11A3.bat" with contents
+[
+@echo off
+ml /c /coff /Zi /Fo .\Debug\test_15_7_7.obj .\test_15_7_7.asm
+]
+Creating command line "C:\Users\kongbo\AppData\Local\Temp\RSP11A3.bat"
+<h3>Output Window</h3>
+Performing Custom Build Step on .\test_15_7_7.asm
+'ml' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Error executing c:\windows\system32\cmd.exe.
+C:\Users\kongbo\AppData\Local\Temp\RSP11A3.bat
+Error deleting temporary file:
+Access denied.
+
+
+
+<h3>Results</h3>
+test_15_7_7.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

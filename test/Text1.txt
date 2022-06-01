@@ -1,0 +1,16 @@
+#include<stdio.h>
+main( ) 
+{ 
+int i，j，number； 
+int a[11]＝{1，4，6，9，13，16，19，28，40，100}；/*数组初始化时预留一位置*/ 
+printf("Insert data：")； 
+scanf("%d"，&number)； /* 读入要插入的数据 */ 
+for(i=0;i<10;i++) 
+if(a[i]==number)_【1】_； 
+for(j=9;j>=i;j++) 
+a[j+1]=_【2】______; 
+a[i]＝number； /* 插入数据 */ 
+printf("Now，array a：\n")； 
+for(i＝0；i<11；i++) /* 输出插入后仍有序的数组 */ 
+printf("%d "，a[i])； 
+} 

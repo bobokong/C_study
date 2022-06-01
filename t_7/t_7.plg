@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: t_7 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\kongbo\AppData\Local\Temp\RSPC137.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/t_7.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\github\Cwork\t_7\t_7.cpp"
+]
+Creating command line "cl.exe @C:\Users\kongbo\AppData\Local\Temp\RSPC137.tmp" 
+<h3>Output Window</h3>
+Compiling...
+t_7.cpp
+E:\github\Cwork\t_7\t_7.cpp(4) : error C2065: 'deletefile' : undeclared identifier
+E:\github\Cwork\t_7\t_7.cpp(4) : warning C4129: 'M' : unrecognized character escape sequence
+E:\github\Cwork\t_7\t_7.cpp(5) : error C2143: syntax error : missing ';' before '}'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+t_7.obj - 2 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

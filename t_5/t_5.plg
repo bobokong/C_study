@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: t_5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\kongbo\AppData\Local\Temp\RSPF763.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/t_5.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\github\Cwork\t_5\t_5.cpp"
+]
+Creating command line "cl.exe @C:\Users\kongbo\AppData\Local\Temp\RSPF763.tmp" 
+<h3>Output Window</h3>
+Compiling...
+t_5.cpp
+E:\github\Cwork\t_5\t_5.cpp(23) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+
+
+
+<h3>Results</h3>
+t_5.obj - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
